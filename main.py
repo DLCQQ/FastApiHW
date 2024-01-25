@@ -65,3 +65,8 @@ def delete_task(id: uuid.UUID):
     if not task:
         raise HTTPException(status_code=404, detail="Задача не найдена")
     return task
+
+
+
+
+
